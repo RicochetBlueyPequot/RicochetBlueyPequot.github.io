@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*Removes default margin and padding applied by other browsers */
+    background-color: teal;
+    /*your background color*/
+}
+
+header {
+    display: flex;
+    /* tells header it is a flex container  */
+    justify-content: space-evenly;
+    /*evenly spaces child elements inside the container */
+    align-items: center;
+    /*vertically center the child elements inside the container */
+    background-color: rgb(71, 136, 136);
+    /*your background color*/
+    color: white;
+    /* padding: 20px; */
+    width: 500px;
+    /*makes sure the header spans the entire width of the screen */
+    margin: 0 auto;
+    /* centers header horizontally on the page */
+
+    flex-wrap: wrap;
+    /*makes sure that the child elements wrap onto a new line if there isn't enought space */
+
+
+}
+
+header img {
+    border-radius: 50 px;
+    /*round the corners of the element*/
+    box-shadow: 3px 3px 3px rgba 0, 0, 0, .61;
+    /* add a soft shadow to make it *float* */
+    max-width: 100%;
+    /* ensures the image is responsive */
+    height: auto;
+    /*maintains image's aspect ratio while resizing*/
+    object-fit: cover;
+    /* crops the image without distorting */
+    ;
+
+}
+
+
+.intro2 {
+    max-width: 500px;
+    /*limits the width for better readability */
+    text-align: left;
+    /* */
+
+}
+
+h2 {
+    border: solid rgb(230, 223, 223) 2px;
+
+}
+
+p {
+    text-align: center;
+}
+
+.skillsSection {
+    background-color: green;
+}
+
+.skills {
+    border: dashed rgb(225, 240, 145) 3px;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Styling for entire Main Element*/
+Main {
+    /* add now we're going to do Flex Box */
+    display: flex;
+    /* Tells Main it is a flex container */
+    flex-direction: column;
+    /* is supposed to stack it into a column */
+    align-items: center;
+    /* Align child elements horizontally in the center */
+    padding: 30px;
+    /*adds padding AROUND the main content, inside the box, for better spacing */
+
+}
+
+/*styling for Section element */
+section {
+    background-color: rgba(179, 72, 136, 0.562);
+    /*background color of each section */
+    padding: 30px;
+    border-radius: 8px;
+    /*adds rounded corners to section*/
+    box-shadow: 0px 4px 8px rbga (0, 0, 0, .7)
+        /* this is the box shadow */
+        padding: 20px;
+    /* adds space INSIDE each section "card" */
+    margin-bottom: 20px;
+    /*adds space at the BOTTOM of "card" */
+    width: 100%;
+    /*makes the section take up the full width of the MAIN container*/
+    max-width: 800px;
+    /* limits the width to a MAX of 800px*/
+}
+
+li {
+    margin-bottom: 10px;
+    /*adds spacing between list items*/
+
+}
+
+footer {
+    color: rgb(2, 27, 2);
+    background-color: #1e8387d4;
+    height: 50px;
+    font-size: small;
+}
+
+
+.centerFooter {
+    text-align: center;
+    text-decoration: none;
+}
